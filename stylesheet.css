@@ -1,0 +1,51 @@
+html {
+    /* background-color: rgba(239, 241, 78, 0.8); */
+    background-image: linear-gradient(yellow, orange);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    height: 100%;
+    /* color: rgb(44, 43, 43); */
+}
+
+#head {
+    margin: 5%;
+    font-size: 350%;
+}
+
+#options {
+text-align: center;
+}
+
+.button {
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+    border-width: 2em;
+    margin: 2%;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(239, 241, 78, 0.7);
+}
+
+.button:active {
+    background-color: rgb(255, 230, 0);
+    box-shadow: 6px 8px #666;
+    transform: translateY(4px);
+}
+
+#score {
+    background-color: white;
+    border-style: groove;
+    border: black;
+    padding: 1em;
+    margin: 1em;
+    width: 20%;
+    border-radius: 2%;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+}
