@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rock Paper Scissor game</title>
+        <title>Rock Paper Scissors game</title>
         <meta charset="utf-8">
-    </head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">    </head>
     <body>
-        <script></script>
+        <h1 id="head">Let's play game!</h1>
+        <h2 id="winning">Who is wining...</h2>
+        <div id="options">
+            <button class="button" id="rock"><i class="far fa-hand-rock fa-3x"></i></button>
+            <button class="button" id="paper"><i class="far fa-hand-paper fa-3x"></i></button>
+            <button class="button" id="scissors"><i class="far fa-hand-scissors fa-3x"></i></button>
+        </div>
+        <div id="table">
+            <div id="score">
+                <p>Your score:</p>
+                <p id="playerScore">0</p>
+                <p>PC score: </p>
+                <p id="pcScore">0</p>
+            </div>
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>
